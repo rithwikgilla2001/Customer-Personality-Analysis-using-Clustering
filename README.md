@@ -4,14 +4,18 @@ This project involves customer segmentation using clustering algorithms on a mar
 
 Size: ~2,200 records, 30+ features
 
-Insights:
+# Insights:
 
-Segmented customers into 4 actionable clusters
+Segmented customers into 4 actionable clusters (~1000, ~500, ~400)
 Observed distinct behavioral and demographic patterns
+Out of 331 positive responses to the offer, arounf 97 have been from cluster 0 where the average age is 56.
 
-Technologies Used:
+# Technologies Used:
 
 Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib)
+
 Clustering Algorithms: KMeans, Agglomerative, DBSCAN, GMM
+
 PCA for dimensionality reduction
+
 Evaluation: Silhouette Score, Davies-Bouldin Score
