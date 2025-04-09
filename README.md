@@ -6,9 +6,9 @@ Size: ~2,200 records, 30+ features
 
 # Insights:
 
-Segmented customers into 4 actionable clusters (~1000, ~500, ~400)
-Observed distinct behavioral and demographic patterns
-Out of 331 positive responses to the offer, arounf 97 have been from cluster 0 where the average age is 56.
+1. Segmented customers into 4 actionable clusters (~1000, ~500, ~400)
+2. Observed distinct behavioral and demographic patterns
+3. Out of 331 positive responses to the offer, arounf 97 have been from cluster 0 where the average age is 56.
 
 # Technologies Used:
 
