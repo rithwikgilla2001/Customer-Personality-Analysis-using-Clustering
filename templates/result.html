@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom right, #f3e5f5, #e1f5fe);
+            background-attachment: fixed;
+            background-size: cover;
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background-image: url('https://www.transparenttextures.com/patterns/graphy.png'); /* light graph pattern */
+            opacity: 0.07;
+            z-index: 0;
+        }
+
+        .result-box {
+            position: relative;
+            z-index: 1;
+            max-width: 500px;
+            margin: 120px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.96);
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4a148c;
+            font-size: 28px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px 20px;
+            background-color: #4a148c;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+
+        a:hover {
+            background-color: #2e0854;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-box">
+        <h2>Predicted Customer Cluster: {{ cluster }}</h2>
+        <a href="/">← Back to Form</a>
+    </div>
+</body>
+</html>
